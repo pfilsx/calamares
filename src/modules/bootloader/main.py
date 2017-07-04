@@ -31,7 +31,7 @@ import subprocess
 
 import libcalamares
 
-from libcalamares.utils import check_target_env_call
+from libcalamares.utils import check_target_env_call, target_env_call
 
 
 def get_uuid():
@@ -332,5 +332,6 @@ def run():
             return None
 
     prepare_bootloader(fw_type)
+    target_env_call(["/etc/apricity-assets/postuseradd.sh"])
 
     return None
