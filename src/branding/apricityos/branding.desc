@@ -2,13 +2,13 @@
 componentName:  apricityos
 
 strings:
-    productName:         Apricity OS
-    shortProductName:    Apricity
-    version:             06.2017 Birch
-    shortVersion:        Birch
-    versionedName:       Apricity OS 06.2017 Birch
-    shortVersionedName:  Apricity Birch
-    bootloaderEntryName: Apricity
+    productName:         Apricity Reborn OS
+    shortProductName:    Apricity Reborn
+    version:             07.2017 Reborn
+    shortVersion:        Reborn
+    versionedName:       Apricity OS 07.2017 Reborn
+    shortVersionedName:  Apricity Reborn
+    bootloaderEntryName: Apricity Reborn
 
 images:
     productLogo:         "squid.png"
